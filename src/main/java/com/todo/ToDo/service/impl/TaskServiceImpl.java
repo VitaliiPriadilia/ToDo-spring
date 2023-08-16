@@ -47,6 +47,7 @@ public class TaskServiceImpl implements TaskService {
                         .deadline(taskDto.getDeadline())
                         .description(taskDto.getDescription())
                         .status(taskDto.getStatus())
+                        .title(taskDto.getTitle())
                         .build());
     }
 

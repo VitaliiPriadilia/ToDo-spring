@@ -11,6 +11,7 @@ import java.security.Principal;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/api/v1/task-list/")
 public class TaskController {
     private final TaskService taskService;
 
